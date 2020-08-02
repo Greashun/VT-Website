@@ -1,0 +1,275 @@
+/*Main Bodies*/
+body {
+    display: grid;
+    font-size: 30px;
+    margin: 25px 150px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* position: fixed; */
+}
+
+
+main > div + section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Menu, Navigation, and Footer */
+
+.menu-containers {
+    margin: 20px;
+}
+
+#top-menu {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    padding: 25px 50px;
+
+}
+
+nav {
+    position: absolute;
+    right: 16px;
+}
+
+#menu {
+    margin: 0px -12px 0px 0px;
+    border: 0px none;
+    position: static;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: outside none none;
+}
+
+.menu-items > li {
+    position: relative;
+    margin: 0px 10px;
+}
+
+[class*=-items] > li > a {
+    text-decoration: none;
+}
+
+.contact-items {
+    display: flex;
+}
+.contact-items > li {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+    align-items: center;
+    list-style: outside none none;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+
+ [class*=media-icons] > a  {
+    overflow: hidden;
+ }
+
+
+ [class*=media-icons] > a > img {
+    height: 100px;
+    background-color: aliceblue;
+} 
+
+.github-media-icons > a > img {
+    border-radius: 100px;
+}
+
+.linkedin-media-icons > a > img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/*Title and Content Wrapper for Centering and Padding*/
+
+[class*="title"]{
+    text-align: center;
+}
+
+
+[class*="container"]{
+    margin: 30px 0px 30px 0px;
+    padding: 20px;;
+}
+
+.bar {
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    margin-left: 750px;
+    margin-right: 750px;
+}
+
+
+/*Font Properties*/
+
+ p, span, h1, h2, h3, a, li, tr  {
+     color: white;
+     text-shadow: 2px -2px 0 black;
+}
+
+/*Home Landing Page*/
+
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+
+.introduction-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-container > h2 {
+    margin: 25px;
+    padding-left: 295px;
+    font-size: 175px;
+    font-weight: 100;
+}
+
+ #home-body {
+    background: url("../images/nyc-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+/*About Landing Page*/
+
+[class*=-body] {
+    background-color:#1a5384;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+#profile-picture {
+    width: 400px;
+    border-radius: 50px;
+    margin: 25px 125px;
+}
+
+/*Skills Landing Page*/
+
+.skils {
+    display: flex; 
+    text-align: center;
+}
+
+.skills-description > p {
+    text-align: center;
+    margin: 90px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td, th {
+    padding: 15px 90px;
+    text-align: center;
+}
+
+/*Experience Landing Page*/
+.work-experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-experience-container > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Education Landing Page*/
+
+.education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-location {
+    margin: 15px;
+    padding: 15px 10px 15px 10px;
+}
+
+/*Projects Landing Page*/
+
+.portfolio-description {
+    text-align: center;
+    margin: 90px;
+}
+
+.project-image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 45px;
+}
+
+.project-description {
+    padding: 35px 25px;
+}
+
+/*Contact Landing Page*/
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-right: 250px;
+}
+
+[class*=input] {
+    margin: 50px;
+}
+
+
+label, input, textarea {
+    width: 200%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+textarea {
+    height: 200px;
+}
+
+#button-submit {
+    text-align: center;
+    margin-left: 250px;
+}

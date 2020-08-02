@@ -4,193 +4,35 @@
     <head>
         <meta charset="UTF-8">
         <title>Vincent Tse</title>
-        <link rel="stylesheet" href="src/index.css"/>
+        <link rel="stylesheet" href="src/css/index.css"/>
+        <script type="text/javascript" src="./src/js/nav.js"></script>
     </head>
 
-    <body>
-      <main>
-        <div>
-            <nav>
-                <ul class="bar">
-                    <li>Portfolio</li>
-                    <li>Experience</li>
-                    <li>Contact</li>
-                </uk>
-            </nav>
+    <body id="home-body">
+        <div id="menu">
         </div>
-        <img src="src/index.png" alt="Vincent Tse">
-        <header>
-            <div class="introduction"> 
+        <div class="introduction">
+            <div class="introduction-container"> 
                 <h1>
-                    Hi, my name is <span>Vincent Tse</span>
-                    I'm a Fullstack Developer based in NYC.
+                    Hi, my name is
                 </h1>
-            </div>       
-        </header>
-
-        <section>
-        <div class="portfolio">
-            <div class="content-wrapper">
-                <h2>Projects</h2>
-                <section>
-                    <h3>Solidarity</h3>
-                    <p>
-                        Prize winner in NIST Tech To Protect Challenge System that provides first responders real time
-                        location, environmental hazard and health data of their peers.
-                    </p>
-                </section>
-                <section>
-                    <h3>Interi-AR</h3>
-                    <p>
-                        An augmented reality mobile application to assist new homeowner’s to plan out their new home
-                        setup.
-                    </p>
-                </section>
-                <section>
-                    <h3>SubWifi</h3>
-                    <p>
-                        Peer-to-peer application connecting urban commuters to a local hotspot sharing new or old
-                        content on the go.
-                    </p>
-                </section>                
+                <h2>
+                    Vincent Tse
+                </h2>
+                <h3>
+                    I'm a Software Developer based in NYC.
+                </h3>
             </div>
         </div>
-        </section>
-        <section>
-            <div class="skills">
-                <section>
-                    <h2>Technologies I use</h2>
-                    <table>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Tools</td>
-                            <td>Procificency</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>JavaScript (ES5 and ES6+)</td>
-                            <td>Proificent</td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Node.js</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>React.js</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>React Native</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Redux</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Express.js</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>PostgreSQL.js</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Mocha</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>&nbsp</td>
-                            <td>Chai</td>
-                            <td></td>
-                        </tr>
-                    </table>
-                </section>
-            </div>
-        </section>
-        <section>
-        <div class="work-experience">
-            <div class="content-wrapper">
-                <h2>Work Experience</h2>
-                <div>
-                    <h3>Assistant Manager</h3>
-                    <p>Yaya Tea Garden, New York, NY</p>
-                    <p>Sept 2009 - Jun 2019</p>
-                    <div>
-                        <ul>
-                            <li>Directly supervised, trained and mentored employees and achieved daily objectives.</li>
-                            <li>Established strong relationships with customers increasing sales volume.</li>
-                            <li>Oversaw and calculate inventory counts on a weekly basis and manage deliveries.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                </div>         
-            </div>
-        </div>
-        </section>
-
-        <section>
-            <div>
-                <h2>Education</h2>
-                <section>
-                    <h3>Pennsylvania State University - World Campus</h3>
-                    <p>Bachelor of Design, 2020 - Expected Sept 2021</p>
-                    <p>Digital Multimedia Design</p>
-                </section>
-
-                <section>
-                    <h3>Full Stack Academy of Code - New York, NY</h3>
-                    <p>Full-Stack Web Development, 2019</p>
-                    <p>24 week full-time program covering HTML, CSS, JavaScript, React, Express, PostgreSQL, TDD, Data Structure</p>
-                </section>
-
-                <section>
-                    <h3>Bergen Community College</h3>
-                    <p>Associate of Fine Arts, Sept 2009 - June 2013</p>
-                </section>
-            </div>
-        </section>
-
-        <section>
-            <h3>Lets Connect!</h3>
-            <form>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="users_email"/>
-                </div>
-
-                <div>
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="users_subject"/>
-                </div>
-                
-
-                <div id="message">
-                    <label for="msg">Your message:</label>
-                    <textarea id="msg" name="users_message" placeholder=""></textarea>
-                </div>
-                
-                <button>Send</button>
-            </form>
-        </section>
+  
+        <section class="contact">
         <footer>
-            <div class="content-wrapper">
-                <h2>Contact</h2>
-                <ul class="bar">
-                    <li><a href="mailto:vncntts@gmail.com">EMAIL</a></li>
-                    <li><a href="https://github.com/greashun">GITHUB</a></li>
-                    <li><a href="https://linkedin.com/in/vtse">LINKEDIN</a></li>
-                <ul>
+            <div class="contact-container">
+                <ol class="contact-items">
+                    <li class="github-media-icons"><a href="https://github.com/greashun"><img src="src/images/icons8-github-250.png"></a></li>
+                    <li class="linkedin-media-icons"><a href="https://linkedin.com/in/vtse"><img src="src/images/icons8-linkedin-144.png"></a></li>
+                <ol>
             </div>
         </footer>
     </body>
-  </main>
 </html>
